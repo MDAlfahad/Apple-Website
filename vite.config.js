@@ -6,7 +6,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "education-we9",
-    project: "javascript-react"
+    project: "javascript-react",
+    base: "Apple-Website"
   })],
 
   build: {
